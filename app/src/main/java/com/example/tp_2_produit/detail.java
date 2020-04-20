@@ -51,8 +51,7 @@ public class detail extends AppCompatActivity {
         ingredients.setText(monPlat.getIngredients().toString());
         preparation.setText(monPlat.getPreparation());
         img.setImageResource(monPlat.getImg());
-        lien.setText(Html.fromHtml("<a href=\"http://www.siteduzero.com\">Mon lien</a>"));
-        lien.setText(Html.fromHtml("<a href=\""+monPlat.getLien()+"\">Lien</a>"));
+        lien.setText(Html.fromHtml("<a href=\""+monPlat.getLien()+"\">"+monPlat.getLien()+"</a>"));
         lien.setLinksClickable(true);
 
 

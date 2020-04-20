@@ -166,43 +166,6 @@
                             android:layout_marginBottom="15dp"/>
                     </LinearLayout>
                 </HorizontalScrollView>
-                <View
-                    android:layout_height="2dp"
-                    android:background="#F80202"
-                    />
-                <ImageView
-                    android:id="@+id/p4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/berkoukes"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="15dp"
-                    />
-                <HorizontalScrollView
-                    android:id="@+id/scr14"
-                    android:visibility="gone">
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        >
-
-                        <ImageView
-                            android:id="@+id/p51"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/berkoukes"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginBottom="15dp"/>
-                        <ImageView
-                            android:id="@+id/p52"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/berkoukes"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginBottom="15dp"/>
-                    </LinearLayout>
-                </HorizontalScrollView>
-
             </TableLayout>
 
         </LinearLayout>

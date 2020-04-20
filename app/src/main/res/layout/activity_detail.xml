@@ -12,21 +12,25 @@
 
             <TextView
                 android:id="@+id/nom"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="60dp"
+                android:textAlignment="center"
+                android:textColor="@color/red"
                 />
 
             <ImageView
                 android:id="@+id/img"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"/>
+                />
 
             <TextView
                 android:id="@+id/prix"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Prix :" />
+                android:text="Prix :"
+                android:textColor="@color/green"/>
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +55,8 @@
                 android:id="@+id/ingr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ingrédients  :" />
+                android:text="Ingrédients  :"
+                android:textColor="@color/green"/>
             <TextView
                 android:id="@+id/ingrVal"
                 android:layout_width="wrap_content"
@@ -61,7 +66,8 @@
                 android:id="@+id/prepa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Préparation  :" />
+                android:text="Préparation  :"
+                android:textColor="@color/green"/>
             <TextView
                 android:id="@+id/prepaVal"
                 android:layout_width="wrap_content"
@@ -71,7 +77,8 @@
                 android:id="@+id/lien"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lien" />
+                android:text="Lien :"
+                android:textColor="@color/green"/>
             <TextView
                 android:id="@+id/lienVal"
                 android:layout_width="wrap_content"
